@@ -557,3 +557,8 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .log{
     margin-top: -33px;
 }
+
+.dest-pic{
+  width: 70vw;
+  height: 30vw;
+}
