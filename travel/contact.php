@@ -18,6 +18,7 @@ $name = stripslashes($_POST['name']);
 $email = trim($_POST['email']);
 $phone = stripslashes($_POST['phone']);
 $subject = stripslashes($_POST['subject']);
+$recipient = "n.joreva@yahoo.com"  
 $message = "Site visitor information:
 
 Name: ".$_POST['name']
@@ -68,8 +69,8 @@ if(!$error)
     ."X-Mailer: PHP/" . phpversion());
 
 if($mail)
-{
-echo 'OK';
+{     
+    echo 'Thank You!';
 }
 
 }
